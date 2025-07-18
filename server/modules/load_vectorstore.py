@@ -34,7 +34,7 @@ def load_vectorstore(uploaded_files):
     )
 
     texts = splitter.split_documents(docs)
-    embeddings = HuggingFaceBgeEmbeddings(model_name="all-MniniLM-l12-v2")
+    embeddings = HuggingFaceBgeEmbeddings(model_name="all-MiniLM-L12-v2")
 
     if os.path.exists(PERSIST_DIR) and os.listdir(PERSIST_DIR):
         vectorstore = Chroma(persist_directory=PERSIST_DIR,embedding_function=embeddings)

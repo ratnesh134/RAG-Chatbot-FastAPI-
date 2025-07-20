@@ -29,13 +29,21 @@ RAG-Chatbot/
 
 ## ✨ Features
 📄 Upload and parse PDFs
+
 🧠 Embed document chunks with HuggingFace embeddings
+
 💂️ Store embeddings in ChromaDB
+
 💬 Query documents using LLaMA3 via Groq
+
 🌍 Microservice architecture (Streamlit client + FastAPI server)
 
 ## 🌟 Credits
+
 LangChain
+
 ChromaDB
+
 Groq
+
 Streamlit
